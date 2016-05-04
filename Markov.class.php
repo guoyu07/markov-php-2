@@ -5,7 +5,7 @@
  * Tiny Markov chain implementation for PHP.
  *
  * @package		php-markov
- * @subpackage	Common
+ * @subpackage		Common
  * @author		Kenny <0@kenny.cat>
 */
 class Markov {
