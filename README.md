@@ -3,7 +3,7 @@
 Simple markov chain implementation for PHP.
 
 ## Example usage
-<pre>
+```php
 <?php
 include("Markov.class.php");
 $chain = new Markov;
@@ -13,5 +13,5 @@ $chain->train("Another test is this.");
 $chain->train("Maybe we should keep it simple.");
 
 echo $chain->generateText(5);
-</pre>
+```
 
